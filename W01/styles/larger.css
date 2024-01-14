@@ -1,0 +1,33 @@
+@media (min-width: 700px) {
+    article {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    article h2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    article section {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    section.post-content {
+        border-top: none;
+        border-bottom: 2px solid #d0d0d0;
+        border-left: 2px solid #d0d0d0;
+        padding: 15px;
+        margin: 0px;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    nav li {
+        display: inline;
+        font-size: x-large;
+    }
+}
